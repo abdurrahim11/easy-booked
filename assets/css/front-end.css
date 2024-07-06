@@ -1,0 +1,848 @@
+/* Calendar */
+.abs-booked-calendar {
+    box-sizing: border-box;
+    text-shadow: none !important; /* The css of the theme so as not to cause any problems in the design for that using !important */
+    box-shadow: none !important;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    border-spacing: 0;
+    width: 100%;
+    border: none !important;
+    border-bottom: 1px solid #ddd !important;
+    table-layout: fixed;
+}
+.abs-page-left i {
+    color: #ffff;
+    font-size: 22px;
+    transition: 0.5s all;
+}
+
+.abs-page-right i {
+    color: #ffff;
+    font-size: 22px;
+    transition: 0.5s all;
+}
+
+.abs-page-left i:hover {
+    color: #ccc;
+}
+
+.abs-page-right i:hover {
+    color: #ccc;
+}
+
+.abs-calendar-header {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.abs-calendar-header th {
+    text-align: center;
+    padding: 0.8rem;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 0.8rem;
+    letter-spacing: 0.03rem;
+    font-weight: 400;
+}
+
+.abs-calendar-header th {
+    position: relative;
+}
+
+.abs-load-time {
+    position: absolute;
+    top: 15px;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+.abs-calendar-header .abs-load-time {
+    display: none;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.abs-month-name {
+    font-size: 16px;
+}
+
+.abs-page-left {
+    float: left;
+    color: #ffff;
+    font-size: 16px;
+    margin-left: 13px;
+    text-decoration: none;
+}
+
+.abs-page-right {
+    float: right;
+    color: #ffff;
+    font-size: 16px;
+    margin-right: 13px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.abs-page-left:hover {
+    color: #ffff;
+}
+
+.abs-page-left:active {
+    color: #ffff;
+}
+
+.abs-page-left:visited {
+    color: #ffff;
+}
+
+.abs-page-right:hover {
+    color: #ffff;
+}
+
+.abs-page-right:visited {
+    color: #ffff;
+}
+
+.abs-days th {
+    border: rebeccapurple !important;
+    padding: 9px;
+}
+
+.abs-week td {
+    background: transparent !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+    padding: 0;
+}
+
+.abs-number {
+    display: inline-block;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 49px;
+    margin: 3px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.abs-time-slots-active .abs-number {
+    color: #333;
+    background: #ffff;
+}
+
+.abs-time-slots-active .abs-number:hover {
+    color: #ffff;
+}
+
+.abs-abs-booked-calendar {
+    box-sizing: border-box;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    border-spacing: 0;
+    width: 100%;
+    border: none !important;
+    border-bottom: 1px solid #ddd !important;
+}
+
+.abs-date {
+    cursor: not-allowed;
+    background: #f5f5f5;
+    color: #ccc;
+    display: block;
+    height: 100%;
+}
+
+.abs-date:hover {
+    cursor: not-allowed;
+    background: #f5f5f5;
+    color: #ccc;
+}
+
+.abs-time-slots-active {
+    background: #fff;
+    transition: background 0.15s ease-out, color 0.15s ease-out;
+    cursor: pointer !important;
+}
+
+.abs-time-slots-active:hover {
+    background: #fff;
+}
+
+.abs-booked-area {
+    color: #fff;
+    background: #ddd;
+}
+
+.abs-booked-area td {
+    border: transparent !important;
+    background: transparent !important;
+    border-bottom-color: #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    text-align: left;
+    color: #fff;
+}
+
+.abs-data.abs-active {
+    background: #ddd !important;
+    border-bottom-color: #ddd;
+}
+
+.abs-active span {
+    background: #ddd;
+}
+
+.abs-active span:hover {
+    background: #ddd;
+}
+
+.abs-today-active span {
+    line-height: 44px;
+}
+
+.abs-active .abs-today-active span {
+    line-height: 49px;
+    border: unset;
+}
+
+.abs-booked-area-loading img {
+    width: 45px !important;
+    height: 45px !important;
+    margin: 0 auto;
+    display: block;
+}
+
+.abs-booked-area-loading td {
+    padding: 40px 10px;
+}
+
+.abs-bookme-timeslot {
+    overflow: hidden;
+    background: #eef0f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.abs-time-solat-list {
+    background: white;
+    color: #878787;
+    padding: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+    box-shadow: 0px 0px 20px 0px #d0d0d0;
+    border-radius: 3px;
+}
+
+.abs-time-solat-list h2 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    color: #030513;
+    line-height: 32px;
+    margin-bottom: 33px;
+}
+
+.abs-bookme-timeslot-left {
+    float: left;
+    padding-left: 17px;
+}
+
+.abs-bookme-timeslot-right {
+    float: right;
+}
+
+.abs-bookme-timeslot-left h5 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #040615;
+    margin: 0;
+    line-height: 27px;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+.abs-bookme-time span {
+    color: #5b617d;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.abs-bookme-time-area {
+    font-size: 16px !important;
+}
+
+.abs-bookme-timeslot p {
+    margin: 0;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.abs-bookme-spaces {
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-left: 4px;
+    color: #878787;
+}
+
+.abs-bookme-timeslot-button {
+    padding: 10px 34px;
+    color: #ffff !important;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.abs-bookme-timeslot-button {
+    margin: 16px 17px;
+    display: block;
+    text-decoration: none !important;
+}
+
+.abs-bookme-timeslot-button:hover {
+    color: #ffff !important;
+}
+
+/* Scroll bar design*/
+.abs-time-solat-list::-webkit-scrollbar {
+    width: 4px;
+}
+
+.abs-time-solat-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.abs-time-solat-list::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.abs-time-solat-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Booking Form Modal */
+.abs-booked-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 110px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.abs-booked-modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 450px;
+    border-radius: 5px;
+}
+
+/* The Close Button */
+.abs-modal-close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transition: 0.5s all;
+}
+
+.abs-modal-close:hover,
+.abs-modal-close:focus {
+    color: #333333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.abs-booked-modal img {
+    display: none;
+    width: 45px !important;
+    height: 45px;
+}
+
+.abs-loading-book-form img {
+    display: block;
+    width: 60px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.abs-loading-book-form .abs-booked-modal-content {
+    display: none;
+}
+
+.abs-booked-header-modal h5 {
+    display: inline;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.abs-booked-header-modal {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.abs-booked-form-time-solat {
+    background: #eef0f4;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.abs-booked-form-time-solat h5 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 9px;
+    font-weight: 500;
+    color: #333333;
+    padding: 0;
+}
+
+.abs-booked-form-time-solat p {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #3a3a3a;
+}
+
+.abs-booked-body-modal h4 {
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #3a3a3a;
+    padding: 0;
+}
+
+.abs-booking-price {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.abs-book-form-group input {
+    border: 1px solid #ddd !important;
+    border-radius: 2px !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    outline: 0 !important;
+    padding: 10px 7px;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    background-color: #fafafa !important;
+    transition: 0.3s !important;
+}
+
+.abs-book-form-group label {
+    color: #878787;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.abs-book-form-btn {
+    text-align: left;
+}
+
+.abs-book-form {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.abs-book-form-btn button {
+    padding: 13px 20px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+    position: relative;
+}
+
+.ab-book-button-two {
+    margin-right: 5px;
+}
+
+.ab-book-button-two {
+    background: transparent;
+}
+
+.ab-book-button {
+    color: #ffff;
+    transition: 0.5s all;
+}
+
+.ab-book-button:focus,
+.ab-book-button:hover {
+    outline: unset !important;
+}
+
+.ab-book-button-two:focus,
+.ab-book-button-two:hover {
+    background: transparent;
+    outline: unset !important;
+}
+
+.abs-book-register-link {
+    padding: 13px 20px !important;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.intl-tel-input {
+    width: 100%;
+}
+
+.abs-book-success-massage p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 0px 10px;
+}
+
+/* Spinner animation */
+.abs-ladda-button[data-loading] {
+    border-color: rgba(0, 0, 0, 0.07);
+    opacity: 0.5;
+}
+
+.abs-ladda-button .spinner {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 50%;
+    margin-top: -16px;
+    opacity: 0;
+    background-image: url(data:image/gif;base64,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);
+}
+
+.abs-ladda-button.abs-slide-right .spinner {
+    right: 100%;
+    margin-left: -16px;
+}
+
+.abs-ladda-button.abs-slide-right[data-loading] .label {
+    opacity: 0;
+    left: 100%;
+}
+
+.abs-ladda-button.abs-slide-right[data-loading] .spinner {
+    opacity: 1;
+    left: 50%;
+}
+
+/* Account page */
+.abs-registration-form {
+    padding: 30px;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+.abs-registration-heading {
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.abs-registration-heading {
+    display: block;
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.abs-reg-form-group {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.abs-reg-form-group > label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.abs-reg-form-group > input {
+    border: 1px solid #ccc;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+.abs-register-button {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Sintony", sans-serif;
+    padding: 19px 40px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.abs-book-success-massage .abs-book-error {
+    color: red;
+}
+
+.abs-error {
+    color: red;
+    margin: 5px 0px !important;
+    display: none;
+}
+
+.intl-tel-input .selected-flag:focus {
+    outline: unset;
+}
+
+.abs-reg-form-group > .intl-tel-input {
+    width: 100%;
+}
+
+.abs-input.abs-user-phone-number:focus {
+    outline: unset;
+}
+
+.abs-input:focus {
+    outline: unset;
+}
+
+.abs-input.abs-user-phone-number {
+    width: 100%;
+}
+
+.abs-ladda-button.abs-slide-right[data-loading] .label {
+    opacity: 0;
+    left: 100%;
+}
+
+/* Pop up box */
+.abs-pop-up {
+    display: none;
+    position: fixed;
+    z-index: 999999999999;
+    padding-top: 110px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.abs-pop-up-modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 550px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.abs-pop-up .abs-booked-modal-content {
+    transform: translateX(-8px);
+}
+
+.abs-pop-up-close {
+    position: absolute;
+    right: -36px;
+    top: -36px;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 9999; /* Ensure it's above other elements */
+    background-color: rgba(0, 0, 0, 0.2); /* Transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Icon color */
+    font-size: 20px; /* Adjust icon size */
+    font-weight: 300; /* Adjust font weight */
+}
+
+/* Custom filed  */
+.abs-radio input {
+    width: unset !important;
+    border: 1px solid #ddd !important;
+}
+
+.abs-radio {
+    display: block;
+}
+
+.abs-book-form-group select {
+    border: 1px solid #ddd !important;
+    border-radius: 2px !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    outline: 0 !important;
+    padding: 10px 7px;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    background-color: #fafafa !important;
+    transition: 0.3s !important;
+}
+
+.abs-book-form-group textarea {
+    border: 1px solid #ddd !important;
+    border-radius: 2px !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    outline: 0 !important;
+    padding: 10px 7px;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    background-color: #fafafa !important;
+    transition: 0.3s !important;
+}
+
+/* Confirmed booking */
+
+.abs-confirmed-header {
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.abs-items h6 {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 0px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.abs-confirmed-list {
+    width: 302px;
+    margin: 0 auto;
+}
+
+.abs-confirmed-header h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    border-bottom: 1px solid var(--text-color-level3, rgba(77, 80, 85, 0.1));
+    padding-bottom: 19px;
+    margin-bottom: 18px;
+}
+
+.abs-add-to-calendar {
+    margin-bottom: 15px;
+}
+
+.abs-items i {
+    color: #333333;
+    margin-right: 5px;
+}
+
+em.copyx {
+    display: none !important;
+}
+
+
+/* Calendar responsive  */
+@media screen and (max-width: 420px) {
+    .abs-number {
+        width: 30px;
+        height: 30px;
+        line-height: 31px;
+        margin: 3px;
+        font-size: 18px;
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .abs-active .abs-today-active span {
+        line-height: 31px;
+    }
+
+    .abs-today-active span {
+        line-height: 27px;
+    }
+
+    .abs-time-solat-list h2 {
+        font-size: 18px ! important;
+    }
+
+    .abs-booked-form-time-solat p {
+        font-size: 14px;
+    }
+
+    .abs-book-form-btn button {
+        padding: 13px 9px !important;
+    }
+
+    .abs-pop-up-modal-content {
+        padding: 5px;
+    }
+
+    .abs-page-right i {
+        font-size: 17px;
+    }
+
+    .abs-page-left i {
+        font-size: 17px;
+    }
+
+    .abs-pop-up-close {
+        position: absolute;
+        right: 3px;
+        background: unset;
+    }
+
+    .abs-pop-up .abs-booked-modal-content {
+        transform: unset;
+    }
+}
+
+
+.abs-zoom-in {
+    opacity: 1; /* Show with full opacity */
+    transform: scale(1); /* Zoom to full size */
+    animation: abs_zoom_in 0.5s; /* Use Animate.css's zoomIn animation or define your own */
+}
+
+@keyframes abs_zoom_in {
+    from {
+        transform: scale(0); /* Start from no scale */
+    }
+    to {
+        transform: scale(1); /* Zoom to normal size */
+    }
+}

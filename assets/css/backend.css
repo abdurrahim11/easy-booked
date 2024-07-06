@@ -1,0 +1,489 @@
+/* Calendar Form Modal */
+.abs-calendar-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 110px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.abs-calendar-modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 450px;
+    border-radius: 5px;
+}
+
+/* The Close Button */
+.abs-modal-close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transition: 0.5s all;
+}
+
+.abs-modal-close:hover,
+.abs-modal-close:focus {
+    color: #333333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.abs-calendar-header-modal h5 {
+    display: inline;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.abs-calendar-header-modal {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.abs-calendar-form-time-solat h5 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 9px;
+    font-weight: 500;
+    color: #333333;
+    padding: 0;
+}
+
+.abs-calendar-form-group input {
+    border: 1px solid #ddd !important;
+    border-radius: 2px !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    outline: 0 !important;
+    padding: 7px 7px;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    background-color: #fafafa !important;
+    transition: 0.3s !important;
+}
+
+.abs-calendar-form-group select {
+    border: 1px solid #ddd !important;
+    border-radius: 2px !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    outline: 0 !important;
+    padding: 10px 7px;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    background-color: #fafafa !important;
+    transition: 0.3s !important;
+}
+
+.abs-calendar-form-group label {
+    color: #878787;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.abs-calendar-form-btn {
+    text-align: left;
+}
+
+.abs-calendar-form {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.abs-calendar-form-btn button {
+    padding: 13px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    position: relative;
+    cursor: pointer;
+}
+
+.abs-calendar-form-cancel-btn {
+    margin-right: 5px;
+}
+
+.abs-calendar-form-btn-success {
+    color: #ffff;
+    transition: 0.5s all;
+}
+
+.abs-calendar-form-cancel-btn {
+    background: transparent;
+}
+
+.abs-calendar-form-btn-success:focus,
+.abs-calendar-form-btn-success:hover {
+    outline: unset !important;
+}
+
+.abs-calendar-form-cancel-btn:focus,
+.abs-calendar-form-cancel-btn:hover {
+    background: transparent;
+    outline: unset !important;
+}
+
+.abs-calendar-form-btn-success {
+    background: #0073aa;
+    border: #0073aa;
+}
+
+.abs-calendar-form-btn-success:focus,
+.abs-calendar-form-btn-success:hover {
+    background: #005882;
+    border: #005882;
+}
+
+.abs-calendar-form-cancel-btn {
+    color: #0073aa;
+    border: 1px solid #0073aa;
+}
+
+.abs-calendar-form-cancel-btn:focus,
+.abs-calendar-form-cancel-btn:hover {
+    background: transparent;
+    border: 1px solid #005882;
+    color: #005882;
+    outline: unset !important;
+}
+
+/* Calendar Form Modal */
+.abs-admin-btn {
+    background: #8806CE;
+    border: #8806CE;
+    padding: 11px 10px;
+    display: block;
+    border-radius: 4px;
+    width: 200px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.5s all;
+    cursor: pointer;
+    position: relative;
+}
+
+.abs-calendar-form-group {
+    margin-bottom: 5px;
+}
+
+.abs-admin-btn:hover,
+.abs-admin-btn:focus {
+    outline: unset;
+    background: #9B23D0;
+}
+
+.abs-service-calendars {
+    position: relative;
+    display: flex;
+    border: 1px solid #c8d7e1;
+}
+
+.abs-nav.nav-tabs {
+    list-style: none;
+    margin: 0;
+    flex: 1;
+    border-bottom: none;
+    padding: 0;
+    background: #f1f1f1;
+    border-right: 1px solid #c8d7e1;
+    min-width: 165px;
+}
+
+.abs-nav.nav-tabs li {
+    margin: 0;
+    padding: 0;
+}
+
+.abs-nav.nav-tabs li a {
+    float: none;
+    display: block;
+    margin: 0;
+    border: none;
+    display: block;
+    margin: 0;
+    padding: 13px;
+    background: #f1f1f1;
+    border: none;
+    border-bottom: 1px solid #c8d7e1;
+    transition-property: none;
+    transition: none;
+    text-decoration: none;
+    color: #444444;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 7px;
+}
+
+.abs-nav.nav-tabs li:last-child a {
+    border-bottom: unset;
+}
+
+.abs-nav.nav-tabs li a:focus {
+    box-shadow: unset;
+    outline: unset;
+}
+
+.abs-nav > li.active > a,
+.abs-nav > li.active > a:hover,
+.abs-nav > li.active > a:focus  {
+    background: #fff!important;
+    border-right: 1px solid #c8d7e1;
+    width: 99%;color: #2e4453;
+    transition: none;
+    transition-property: none;
+}
+
+.abs-field-pd {
+    padding: 6px 24px 6px 8px !important;
+}
+
+.abs-page {
+    margin-top: 12px;
+    display: none;
+}
+
+.abs-nav.nav-tabs li .abs-service-calendars-title {
+    text-align: center;
+    padding-top: 25px;
+    cursor: default;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.abs-nav.nav-tabs li a span {
+    margin-right: 6px;
+    line-height: 19px;
+}
+
+.abs-nav.nav-tabs li a .dashicons-admin-generic {
+    color: #6c75ff;
+}
+
+.abs-nav.nav-tabs li a .dashicons-clock {
+    color: #2dce89;
+}
+
+
+.abs-nav.nav-tabs li a .abs-clock {
+    color: #f5365c;
+}
+
+.abs-nav.nav-tabs li a .dashicons-email-alt {
+    color: #3498db;
+}
+
+.abs-tabs-contain {
+    flex: 3;
+    padding-left: 1%;
+    padding-right: 10px;
+    background: #fff;
+}
+
+.abs-tabs-contain > .abs-tab-pane {
+    display: none;
+    width: 100%;
+    float: left;
+}
+
+.abs-tabs-contain > .abs-tab-pane.active {
+    display: block;
+}
+
+.abs-tab-contain {
+    padding: 10px;
+}
+
+.abs-tab-contain h3 {
+    border-bottom: 1px solid #c8d7e1;
+    padding-bottom: 22px;
+}
+
+.abs-custom-time-slots-area {
+    border-radius: 4px;
+    -webkit-box-shadow: 0 10px 6px -6px #e1dcdc;
+    -moz-box-shadow: 0 10px 6px -6px #e1dcdc;
+    box-shadow: 0 10px 6px -6px #e1dcdc;
+    margin-bottom: 50px;
+}
+
+/* Time slots list */
+.abs-error-field {
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.abs-time-slots-list {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.abs-time-slots-list td,
+.abs-time-slots-list th {
+    border-bottom: 1px solid #e1e8ee;
+    padding: 12px 8px;
+    font-weight: 500;
+    color: #aaa;
+    font-size: 13.6px;
+}
+
+.abs-time-slots-list tr:hover {
+    background-color: #f0f3f5;
+}
+
+.abs-time-slots-list th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #8806CE;
+    color: #fff;
+}
+
+.abs-time-slots-list tbody {
+    display: block;
+    height: 222px;
+    overflow: auto;
+}
+
+.abs-time-slots-list tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.abs-custom-time-slots-form {
+    margin-bottom: 20px;
+}
+
+.abs-time-slots-remove {
+    color: red;
+}
+
+.abs-custom-time-slots-remove {
+    color: red;
+}
+
+.abs-time-slots-edit {
+    color: #33A7E4;
+}
+
+.abs-time-slot-icon {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.abs-custom-time-slots-sub-add {
+    padding: 0px 3px;
+    cursor: pointer;
+}
+
+.abs-custom-time-slots-sub-add:hover {
+    color: #929090;
+}
+
+.abs-time-slots-sub-add {
+    padding: 0px 3px;
+    cursor: pointer;
+}
+
+.abs-time-slots-sub-add:hover {
+    color: #929090;
+}
+
+/* Scroll bar design*/
+.abs-time-slots-list tbody::-webkit-scrollbar {
+    width: 4px;
+}
+
+.abs-time-slots-list tbody::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.abs-time-slots-list tbody::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.abs-time-slots-list tbody::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Table id column width change*/
+.wp-list-table .column-id {
+    width: 100px;
+}
+
+/* Spinner animation */
+.abs-ladda-button[data-loading] {
+    border-color: rgba(0, 0, 0, 0.07);
+    opacity: 0.5;
+}
+
+.abs-ladda-button .abs-spinner {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 50%;
+    margin-top: -16px;
+    opacity: 0;
+    background-image: url(data:image/gif;base64,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);
+}
+
+.abs-ladda-button.abs-slide-right .abs-spinner {
+    right: 100%;
+    margin-left: -16px;
+}
+
+.abs-ladda-button.abs-slide-right[data-loading] .label {
+    opacity: 0;
+    left: 100%;
+}
+
+.abs-ladda-button.abs-slide-right[data-loading] .abs-spinner {
+    opacity: 1;
+    left: 50%;
+}
+
+.abs-enable-appointments {
+    display: none;
+}
+
+/** Css color status */
+.abs-processing {
+    font-size: 16px;
+    color: #007bff;
+}
+
+.abs-error {
+    font-size: 16px;
+    color: #dc3545;
+}
+
+.abs-success {
+    font-size: 16px;
+    color: #28a745;
+}
+
+@media screen and ( max-width: 881px ) {
+    .abs-nav.nav-tabs li .abs-service-calendars-title {
+        font-size: 26px;
+    }
+}

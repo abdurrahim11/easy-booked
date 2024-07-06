@@ -1,0 +1,22 @@
+{
+    "name": "joydevs/appointment_booking",
+    "description": "Appointment booking and scheduling",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Abdur Rahim",
+            "email": "abdurrahimctg10@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "firebase/php-jwt": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Appointment\\Booking\\": "./includes"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}

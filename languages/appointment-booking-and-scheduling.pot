@@ -1,0 +1,819 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-06-02 13:57+0600\n"
+"PO-Revision-Date: 2021-04-11 02:03+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;esc_html_e;esc_html__;esc_attr_\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: .idea\n"
+"X-Poedit-SearchPathExcluded-3: .git\n"
+
+#: includes/Admin/Add_Mata_Fields.php:26
+msgid "Phone Number"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:36
+msgid "ID / Name"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:37 includes/Admin/Export.php:61
+#: includes/Frontend/Build_Calendar.php:696
+#: includes/Frontend/Wc/Appointment_List_Page.php:68
+#: includes/Frontend/views/history.php:53
+#: includes/Frontend/views/pending.php:50
+#: includes/Frontend/views/profile.php:53
+msgid "Phone"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:38 includes/Admin/Export.php:62
+#: includes/Admin/views/email.php:6 includes/Admin/views/setting.php:6
+#: includes/Admin/views/zoom.php:6 includes/Frontend/Build_Calendar.php:640
+#: includes/Frontend/Build_Calendar.php:706
+msgid "Email"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:39
+msgid "Appointments Time"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:40 includes/Admin/Export.php:65
+msgid "Payment Status"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:41 includes/Admin/Export.php:66
+#: includes/Frontend/Wc/Appointment_List_Page.php:70
+#: includes/Frontend/views/history.php:55
+#: includes/Frontend/views/pending.php:52
+#: includes/Frontend/views/profile.php:55
+msgid "Status"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:45 includes/Admin/views/email.php:5
+#: includes/Admin/views/setting.php:5 includes/Admin/views/zoom.php:5
+msgid "Zoom"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:106
+msgid "Free Booking"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:112
+msgid "Edit Order"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:127
+#: includes/Admin/Appointment_List.php:198
+#: includes/Admin/Appointment_List.php:366
+#: includes/Frontend/views/history.php:13
+#: includes/Frontend/views/pending.php:13
+#: includes/Frontend/views/profile-edit.php:13
+#: includes/Frontend/views/profile.php:13
+msgid "Pending"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:130
+#: includes/Admin/Appointment_List.php:192
+#: includes/Admin/Appointment_List.php:365
+msgid "Approve"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:132
+msgid "Complete"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:146
+msgid "Join Zoom Meeting"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:205 includes/Admin/Calendar_List.php:80
+msgid "Delete"
+msgstr ""
+
+#: includes/Admin/Appointment_List.php:364
+msgid "All"
+msgstr ""
+
+#: includes/Admin/Calendar_List.php:36 includes/Frontend/Build_Calendar.php:686
+#: includes/Frontend/Wc/Appointment_List_Page.php:67
+#: includes/Frontend/views/history.php:52
+#: includes/Frontend/views/pending.php:49
+#: includes/Frontend/views/profile.php:52
+msgid "Name"
+msgstr ""
+
+#: includes/Admin/Calendar_List.php:37 includes/Admin/views/general.php:16
+msgid "Booking Type"
+msgstr ""
+
+#: includes/Admin/Calendar_List.php:38
+msgid "Appointment  Type"
+msgstr ""
+
+#: includes/Admin/Calendar_List.php:39 includes/Admin/views/general.php:90
+msgid "New Appointment  Default"
+msgstr ""
+
+#: includes/Admin/Calendar_List.php:40
+msgid "Shortcode"
+msgstr ""
+
+#: includes/Admin/Calendar_List.php:74
+msgid "Edit"
+msgstr ""
+
+#: includes/Admin/Custom_Time_Slots.php:100
+msgid "Disable Appointments"
+msgstr ""
+
+#: includes/Admin/Export.php:60
+msgid "Full Name"
+msgstr ""
+
+#: includes/Admin/Export.php:63
+msgid "Date"
+msgstr ""
+
+#: includes/Admin/Export.php:64 includes/Admin/views/calendar-manage.php:9
+msgid "Time Slots"
+msgstr ""
+
+#: includes/Admin/Export.php:70
+msgid "Zoom Join Link"
+msgstr ""
+
+#: includes/Admin/Export.php:71
+msgid "Zoom Join Password"
+msgstr ""
+
+#: includes/Admin/Menu.php:36 includes/Admin/Page_Title_Prefix.php:29
+#: includes/Admin/views/calendar-manage.php:7
+msgid "Easy Booked"
+msgstr ""
+
+#: includes/Admin/Menu.php:37
+msgid "Calendar Manage"
+msgstr ""
+
+#: includes/Admin/Menu.php:38
+msgid "Appointments"
+msgstr ""
+
+#: includes/Admin/Menu.php:39 includes/Admin/Menu.php:49
+msgid "Setting"
+msgstr ""
+
+#: includes/Admin/views/appointments-list.php:2
+msgid "Appointment"
+msgstr ""
+
+#: includes/Admin/views/appointments-list.php:6
+msgid "Export CSV"
+msgstr ""
+
+#: includes/Admin/views/appointments-list.php:12
+msgid "Search"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:2
+msgid "Calendar"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:6
+msgid "Update"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:10
+msgid "Add New"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:27
+msgid "Create Appointment Calendar"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:38
+msgid "Calendar Name:"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:42
+msgid "Booking Type:"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:44
+#: includes/Admin/views/general.php:20
+msgid "Guest Booking"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:45
+#: includes/Admin/views/general.php:21 includes/Admin/views/setting.php:9
+msgid "Registered Booking"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:49
+msgid "Appointment type:"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:51
+msgid "Free"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:58
+msgid "New Appointment Default:"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:60
+#: includes/Admin/views/general.php:94
+msgid "Set as Pending"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:61
+#: includes/Admin/views/general.php:95
+msgid "Approve Immediately"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:68
+msgid "Create new calendar"
+msgstr ""
+
+#: includes/Admin/views/calendar-list.php:69
+#: includes/Frontend/Build_Calendar.php:725
+#: includes/Frontend/Build_Calendar.php:758
+msgid "Cancel"
+msgstr ""
+
+#: includes/Admin/views/calendar-manage.php:8 includes/Admin/views/email.php:4
+#: includes/Admin/views/general.php:2 includes/Admin/views/setting.php:4
+#: includes/Admin/views/zoom.php:4
+msgid "General"
+msgstr ""
+
+#: includes/Admin/views/calendar-manage.php:10
+msgid "Custom Time Slots"
+msgstr ""
+
+#: includes/Admin/views/custom-time-slots.php:104
+#: includes/Admin/views/time-slots.php:93
+msgid "Add Timeslots"
+msgstr ""
+
+#: includes/Admin/views/email.php:2 includes/Admin/views/setting.php:2
+#: includes/Admin/views/zoom.php:2
+msgid "Easy Booked Settings"
+msgstr ""
+
+#: includes/Admin/views/email.php:9
+msgid "You can use following variables in your templates:"
+msgstr ""
+
+#: includes/Admin/views/email.php:17
+msgid "Customer Appointment Reminder"
+msgstr ""
+
+#: includes/Admin/views/email.php:23 includes/Admin/views/email.php:87
+#: includes/Admin/views/email.php:119 includes/Admin/views/zoom.php:15
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/Admin/views/email.php:30 includes/Admin/views/email.php:94
+#: includes/Admin/views/email.php:126
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/Admin/views/email.php:37
+msgid "Reminder Time"
+msgstr ""
+
+#: includes/Admin/views/email.php:51
+msgid ""
+"Note:  To make this option work,  you would need to setup cron to run from "
+"the server level using the following command:"
+msgstr ""
+
+#: includes/Admin/views/email.php:60 includes/Admin/views/email.php:101
+#: includes/Admin/views/email.php:133
+msgid "Content"
+msgstr ""
+
+#: includes/Admin/views/email.php:82
+msgid "Appointment Confirmation"
+msgstr ""
+
+#: includes/Admin/views/email.php:114
+msgid "Appointment Approval"
+msgstr ""
+
+#: includes/Admin/views/email.php:148 includes/Admin/views/setting.php:93
+msgid "Save Settings"
+msgstr ""
+
+#: includes/Admin/views/general.php:8
+msgid "Calendar Name"
+msgstr ""
+
+#: includes/Admin/views/general.php:30
+msgid "Appointment  Booking Redirect"
+msgstr ""
+
+#: includes/Admin/views/general.php:45
+msgid "Refresh the calendar list after booking (No Redirect)"
+msgstr ""
+
+#: includes/Admin/views/general.php:49
+msgid "Choose a redirect page"
+msgstr ""
+
+#: includes/Admin/views/general.php:52
+msgid "Choose a page..."
+msgstr ""
+
+#: includes/Admin/views/general.php:64
+msgid ""
+"Note: Refresh the calendar not allow for paid appointment Because must "
+"redirect to the checkout page to get the payment. If you select a page, the "
+"whole process will end and then it will redirect you to that page"
+msgstr ""
+
+#: includes/Admin/views/general.php:69
+msgid "Appointment  Limit"
+msgstr ""
+
+#: includes/Admin/views/general.php:73
+msgid "No limit"
+msgstr ""
+
+#: includes/Admin/views/general.php:85
+msgid ""
+"To prevent users from booking too many appointments, you can set an "
+"appointment limit."
+msgstr ""
+
+#: includes/Admin/views/general.php:98
+msgid ""
+"Would you like your appointment requests to go into a pending list or should "
+"they be approved immediately?"
+msgstr ""
+
+#: includes/Admin/views/general.php:104
+msgid "Start week"
+msgstr ""
+
+#: includes/Admin/views/general.php:108
+msgid "Monday"
+msgstr ""
+
+#: includes/Admin/views/general.php:109
+msgid "Sunday"
+msgstr ""
+
+#: includes/Admin/views/general.php:115
+msgid "Display Options"
+msgstr ""
+
+#: includes/Admin/views/general.php:121
+msgid "Hide \"Name\" from booking form"
+msgstr ""
+
+#: includes/Admin/views/general.php:126
+msgid "Hide \"Email\" from booking form"
+msgstr ""
+
+#: includes/Admin/views/general.php:131
+msgid " Hide \"Phone Number\" from booking form"
+msgstr ""
+
+#: includes/Admin/views/general.php:136
+msgid "Hide the number of available time slots"
+msgstr ""
+
+#: includes/Admin/views/general.php:148
+msgid "Save Change"
+msgstr ""
+
+#: includes/Admin/views/setting.php:10
+msgid "In this setting apply for registered booking"
+msgstr ""
+
+#: includes/Admin/views/setting.php:17
+msgid "After Register Redirect"
+msgstr ""
+
+#: includes/Admin/views/setting.php:33
+msgid "Login Redirect"
+msgstr ""
+
+#: includes/Admin/views/setting.php:50
+msgid "Logout Redirect"
+msgstr ""
+
+#: includes/Admin/views/setting.php:54
+msgid "Default Login Page"
+msgstr ""
+
+#: includes/Admin/views/setting.php:67
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/Admin/views/setting.php:68
+msgid "In this setting apply for paid booking"
+msgstr ""
+
+#: includes/Admin/views/setting.php:74
+msgid "Payment redirect after booking"
+msgstr ""
+
+#: includes/Admin/views/setting.php:78
+msgid "Checkout Page (default)"
+msgstr ""
+
+#: includes/Admin/views/setting.php:79
+msgid "Cart Page"
+msgstr ""
+
+#: includes/Admin/views/setting.php:82
+msgid ""
+"Note: It will work paid  appointment and you can choose to have booked "
+"redirect to the checkout page (default) or the cart page instead."
+msgstr ""
+
+#: includes/Admin/views/zoom.php:9
+msgid "Zoom Settings"
+msgstr ""
+
+#: includes/Admin/views/zoom.php:22
+msgid "Enable zoom"
+msgstr ""
+
+#: includes/Admin/views/zoom.php:29
+msgid "Zoom Api Key"
+msgstr ""
+
+#: includes/Admin/views/zoom.php:37
+msgid "Zoom Secret key"
+msgstr ""
+
+#: includes/Admin/views/zoom.php:44
+msgid "For getting started, go to the Zoom Developer Dashboard and create a "
+msgstr ""
+
+#: includes/Admin/views/zoom.php:45
+msgid "new app"
+msgstr ""
+
+#: includes/Admin/views/zoom.php:46
+msgid "Choose JWT as the app type and copy the Zoom API key and secret."
+msgstr ""
+
+#: includes/Admin/views/zoom.php:53
+msgid "Default Duration Zoom"
+msgstr ""
+
+#: includes/Admin/views/zoom.php:58
+msgid ""
+"Note: This will only work if you do not set any end time in the Time Slots"
+msgstr ""
+
+#: includes/Admin/views/zoom.php:64
+msgid "Default Meeting Password"
+msgstr ""
+
+#: includes/Admin/views/zoom.php:77
+msgid "Save Changes"
+msgstr ""
+
+#: includes/Admin/views/zoom.php:78
+msgid "Check API Connection"
+msgstr ""
+
+#: includes/Assets.php:131
+msgid "Your zoom API connection check now ..."
+msgstr ""
+
+#: includes/Assets.php:132
+msgid "All fields are required."
+msgstr ""
+
+#: includes/Assets.php:133
+msgid "Must be larger or equal to Start date"
+msgstr ""
+
+#: includes/Assets.php:134
+msgid "Please select start date"
+msgstr ""
+
+#: includes/Frontend/Booked_Appointment.php:218
+msgid "Confirmed"
+msgstr ""
+
+#: includes/Frontend/Booked_Appointment.php:221
+msgid " Add to Calendar"
+msgstr ""
+
+#: includes/Frontend/Booked_Appointment.php:279
+#: includes/Frontend/Booked_Appointment.php:286
+msgid "Your appointment booking success"
+msgstr ""
+
+#: includes/Frontend/Booked_Appointment.php:318
+msgid "You have already booked and now you can no longer book it."
+msgstr ""
+
+#: includes/Frontend/Build_Calendar.php:451
+msgid "Available Appointments on"
+msgstr ""
+
+#: includes/Frontend/Build_Calendar.php:483
+#: includes/Frontend/Build_Calendar.php:531
+msgid "SPACES AVAILABLE"
+msgstr ""
+
+#: includes/Frontend/Build_Calendar.php:493
+#: includes/Frontend/Build_Calendar.php:540
+msgid "Book Now"
+msgstr ""
+
+#: includes/Frontend/Build_Calendar.php:574
+msgid "Book an Appointment "
+msgstr ""
+
+#: includes/Frontend/Build_Calendar.php:600
+msgid "Booking Price:"
+msgstr ""
+
+#: includes/Frontend/Build_Calendar.php:638
+msgid "Please sign in:"
+msgstr ""
+
+#: includes/Frontend/Build_Calendar.php:644
+msgid "Password"
+msgstr ""
+
+#: includes/Frontend/Build_Calendar.php:656
+#: includes/Frontend/Users_Register.php:146
+msgid "Login"
+msgstr ""
+
+#: includes/Frontend/Build_Calendar.php:663
+#: includes/Frontend/Users_Register.php:60
+msgid "Register"
+msgstr ""
+
+#: includes/Frontend/Build_Calendar.php:681
+msgid "Your Information"
+msgstr ""
+
+#: includes/Frontend/Build_Calendar.php:722
+#: includes/Frontend/Build_Calendar.php:755
+msgid "Book Appointment "
+msgstr ""
+
+#: includes/Frontend/Users_Register.php:39
+msgid "Full Name :"
+msgstr ""
+
+#: includes/Frontend/Users_Register.php:43
+msgid "Username :"
+msgstr ""
+
+#: includes/Frontend/Users_Register.php:47
+#: includes/Frontend/Users_Register.php:133
+msgid "E-mail :"
+msgstr ""
+
+#: includes/Frontend/Users_Register.php:51
+msgid "Phone Number:"
+msgstr ""
+
+#: includes/Frontend/Users_Register.php:55
+#: includes/Frontend/Users_Register.php:137
+msgid "Password :"
+msgstr ""
+
+#: includes/Frontend/Users_Register.php:75
+#: includes/Frontend/Users_Register.php:162
+msgid "You are trying to spamming"
+msgstr ""
+
+#: includes/Frontend/Users_Register.php:94
+msgid "Username or Email already registered. Please try another one."
+msgstr ""
+
+#: includes/Frontend/Users_Register.php:142
+msgid "Remember Me"
+msgstr ""
+
+#: includes/Frontend/Users_Register.php:189
+msgid "Wrong username or password."
+msgstr ""
+
+#: includes/Frontend/Wc/Appointment_List_Page.php:69
+#: includes/Frontend/views/history.php:54
+#: includes/Frontend/views/pending.php:51
+#: includes/Frontend/views/profile.php:54
+msgid "Appointment  Time Slot"
+msgstr ""
+
+#: includes/Frontend/Wc/Appointment_List_Page.php:74
+#: includes/Frontend/views/history.php:59
+#: includes/Frontend/views/pending.php:56
+#: includes/Frontend/views/profile.php:59
+msgid "Zoom join link"
+msgstr ""
+
+#: includes/Frontend/Wc/Appointment_List_Page.php:75
+#: includes/Frontend/views/history.php:60
+#: includes/Frontend/views/pending.php:57
+#: includes/Frontend/views/profile.php:60
+msgid "Zoom password"
+msgstr ""
+
+#: includes/Frontend/Wc/Appointment_List_Page.php:118
+#: includes/Frontend/views/history.php:103
+#: includes/Frontend/views/pending.php:100
+#: includes/Frontend/views/profile.php:103
+msgid "Pending (Type:"
+msgstr ""
+
+#: includes/Frontend/Wc/Appointment_List_Page.php:120
+#: includes/Frontend/views/history.php:105
+#: includes/Frontend/views/pending.php:102
+#: includes/Frontend/views/profile.php:105
+msgid "Approve (Type:"
+msgstr ""
+
+#: includes/Frontend/Wc/Appointment_List_Page.php:122
+#: includes/Frontend/views/history.php:107
+#: includes/Frontend/views/pending.php:104
+#: includes/Frontend/views/profile.php:107
+msgid "Complete (Type:"
+msgstr ""
+
+#: includes/Frontend/views/history.php:10
+#: includes/Frontend/views/pending.php:10
+#: includes/Frontend/views/profile-edit.php:10
+#: includes/Frontend/views/profile.php:10
+msgid "Upcoming"
+msgstr ""
+
+#: includes/Frontend/views/history.php:16
+#: includes/Frontend/views/pending.php:16
+#: includes/Frontend/views/profile-edit.php:16
+#: includes/Frontend/views/profile.php:16
+msgid "History"
+msgstr ""
+
+#: includes/Frontend/views/history.php:19
+#: includes/Frontend/views/pending.php:19
+#: includes/Frontend/views/profile-edit.php:19
+#: includes/Frontend/views/profile.php:19
+msgid "Profile"
+msgstr ""
+
+#: includes/Frontend/views/history.php:31
+#: includes/Frontend/views/pending.php:31
+#: includes/Frontend/views/profile-edit.php:31
+#: includes/Frontend/views/profile.php:31
+msgid "Welcome back,"
+msgstr ""
+
+#: includes/Frontend/views/history.php:47
+msgid " Appointment History"
+msgstr ""
+
+#: includes/Frontend/views/pending.php:44
+msgid "Pending Appointment"
+msgstr ""
+
+#: includes/Frontend/views/profile-edit.php:34
+msgid "Profile Edit"
+msgstr ""
+
+#: includes/Frontend/views/profile.php:47
+msgid "Upcoming Appointment"
+msgstr ""
+
+#: includes/Installer.php:144
+msgid "Booked Customer"
+msgstr ""
+
+#: includes/Zoom.php:73
+msgid "Your connection success"
+msgstr ""
+
+#: includes/functions.php:206
+msgid "Easy Booked Every Five Minutes"
+msgstr ""
+
+#: includes/functions.php:220
+msgid "At appointment time"
+msgstr ""
+
+#: includes/functions.php:221
+msgid "5 minutes before"
+msgstr ""
+
+#: includes/functions.php:222
+msgid "10 minutes before"
+msgstr ""
+
+#: includes/functions.php:223
+msgid "15 minutes before"
+msgstr ""
+
+#: includes/functions.php:224
+msgid "30 minutes before"
+msgstr ""
+
+#: includes/functions.php:225
+msgid "45 minutes before"
+msgstr ""
+
+#: includes/functions.php:226
+msgid "1 hour before"
+msgstr ""
+
+#: includes/functions.php:227
+msgid "2 hours before"
+msgstr ""
+
+#: includes/functions.php:228
+msgid "3 hours before"
+msgstr ""
+
+#: includes/functions.php:229
+msgid "4 hours before"
+msgstr ""
+
+#: includes/functions.php:230
+msgid "5 hours before"
+msgstr ""
+
+#: includes/functions.php:231
+msgid "6 hours before"
+msgstr ""
+
+#: includes/functions.php:232
+msgid "12 hours before"
+msgstr ""
+
+#: includes/functions.php:233
+msgid "24 hours before"
+msgstr ""
+
+#: includes/functions.php:234
+msgid "2 days before"
+msgstr ""
+
+#: includes/functions.php:235
+msgid "3 days before"
+msgstr ""
+
+#: includes/functions.php:236
+msgid "4 days before"
+msgstr ""
+
+#: includes/functions.php:237
+msgid "5 days before"
+msgstr ""
+
+#: includes/functions.php:238
+msgid "6 days before"
+msgstr ""
+
+#: includes/functions.php:239
+msgid "1 week before"
+msgstr ""
+
+#: includes/functions.php:240
+msgid "2 weeks before"
+msgstr ""
+
+#: includes/functions.php:241
+msgid "3 weeks before"
+msgstr ""
+
+#: includes/functions.php:242
+msgid "4 weeks before"
+msgstr ""
+
+#: includes/functions.php:243
+msgid "6 weeks before"
+msgstr ""
+
+#: includes/functions.php:244
+msgid "2 months before"
+msgstr ""
+
+#: includes/functions.php:245
+msgid "3 months before"
+msgstr ""
