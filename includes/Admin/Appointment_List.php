@@ -39,6 +39,7 @@ class Appointment_List extends \WP_List_Table {
             'appointments_time'   => esc_html__( 'Appointments Time', 'appointment-booking' ),
             'payment'   => esc_html__( 'Payment Status', 'appointment-booking' ),
             'status'   => esc_html__( 'Status', 'appointment-booking' ),
+            'action'   => esc_html__( 'Action', 'appointment-booking' ),
         );
 
         if ( strtolower( get_option( 'abs_enable_zoom' ) ) === strtolower( 'yes'  ) ) {
@@ -137,6 +138,30 @@ class Appointment_List extends \WP_List_Table {
                 return esc_html__( 'Complete', 'appointment-booking' );
         }
     }
+
+
+
+    /**
+     * Status
+     *
+     * @param $item
+     * @return string
+     */
+    public function column_action( $item ) {
+
+        return sprintf(
+                '<div class="eb-appointments-actions-wrapp">
+                    <span class="dashicons dashicons-admin-generic"></span>
+                    <div class="eb-appointments-actions">
+                        <a href=""><span class="dashicons dashicons-visibility"></span></a>                        
+                        <a href=""><span class="dashicons dashicons-edit-large"></span></a>
+                        <a href=""><span class="dashicons dashicons-trash"></span></a>
+                    </div>
+                </div>',
+        );
+    }
+
+
 
     /**
      * Zoom link
