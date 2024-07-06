@@ -142,7 +142,7 @@ class Appointment_List extends \WP_List_Table {
 
 
     /**
-     * Status
+     * Action
      *
      * @param $item
      * @return string
