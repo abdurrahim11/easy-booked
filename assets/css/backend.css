@@ -487,3 +487,50 @@
         font-size: 26px;
     }
 }
+
+
+
+/* Joynal */
+
+.eb-appointments-actions-wrapp {
+    position: relative;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.eb-appointments-actions {
+    position: absolute;
+    top: 0;
+    background: #8806CE;
+    color: #fff;
+    border-radius: 5px;
+    width: 35px;
+    overflow: hidden;
+    transition: 0.4s;
+    height: 38px;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 5px;
+}
+
+.eb-appointments-actions span {
+    color: #fff;
+    padding: 6px 7px;
+}
+
+.eb-appointments-actions-wrapp>span {cursor: pointer;}
+
+.eb-appointments-actions-wrapp:hover div {
+    width: 300px;
+    max-width: max-content;
+    visibility: visible;
+    opacity: 1;
+}
+
+.eb-appointments-actions a {
+    display: inline-block;
+}
