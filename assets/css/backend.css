@@ -515,6 +515,7 @@
     align-items: center;
     gap: 10px;
     padding: 0 5px;
+    max-width: fit-content;
 }
 
 .eb-appointments-actions span {
